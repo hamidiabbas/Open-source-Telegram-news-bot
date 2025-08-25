@@ -5,3 +5,4 @@ schedule==1.2.1
 sumy==0.10.0
 python-dotenv==1.0.1
 colorama==0.4.6
+dotenv==0.0.5
