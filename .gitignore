@@ -1,0 +1,18 @@
+# Secrets and config
+.env
+.env.*
+
+# Logs and error files
+*.log
+bot_errors.log
+
+# URL/post history cache
+posted_urls.txt
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
