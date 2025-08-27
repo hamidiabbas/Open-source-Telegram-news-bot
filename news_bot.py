@@ -185,7 +185,7 @@ def save_story_queue(queue):
 
 def make_friendly_prompt(title, descr, lang):
     if lang == "fa":
-        return ("تو یک بات خبری تلگرام هستی که همیشه خلاصه خبرها رو با لحن باهوش و ایموجی می‌نویسی. سعی کن جذاب و قابل فهم و کمی هم بامزه باشه." f"خبر: {title} {descr}")
+        return ("تو یک بات خبری تلگرام هستی که همیشه خلاصه خبرها رو با لحن باهوش و ایموجی می‌نویسی. سعی کن جذاب و قابل فهم و کمی هم هوشمندانه باشه." f"خبر: {title} {descr}")
     return ("You're a world-class news bot. Summarize this for a professional audience in a witty, quick-but-expert, sometimes funny and emoji-rich way. End with sources. Journalism-style, not dry bot!\n" f"Story: {title} {descr}")
 
 async def pin_message(bot, chat_id, message_id, only_if_not_already=True):
