@@ -1,7 +1,8 @@
-python-telegram-bot==20.7
 requests==2.31.0
+python-telegram-bot==20.3
 feedparser==6.0.10
 schedule==1.2.1
-sumy==0.10.0
 python-dotenv==1.0.1
 colorama==0.4.6
+python-dateutil==2.9.0
+beautifulsoup4==4.13.4
