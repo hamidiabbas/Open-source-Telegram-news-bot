@@ -422,9 +422,18 @@ def schedule_news_job():
     asyncio.run(post_from_queue())
     schedule_bot()
 
-if __name__ == "__main__":
+async def main():
     print(Fore.CYAN + "Starting all-in-one bot: posts every 5min, all feeds, no date limits!")
+    
+    # Start scheduling in background thread
     news_thread = threading.Thread(target=schedule_news_job, daemon=True)
     news_thread.start()
-    asyncio.get_event_loop().create_task(real_time_monitor())
+    
+    # Start real-time monitoring
+    asyncio.create_task(real_time_monitor())
+    
+    # Run telegram server (this will keep the program alive)
     telegram_command_server()
+
+if __name__ == "__main__":
+    asyncio.run(main())
