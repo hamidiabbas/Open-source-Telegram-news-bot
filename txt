@@ -1,0 +1,175 @@
+RSS_FEEDS = {
+    "#Tech": [
+        "https://www.theverge.com/rss/index.xml",
+        "https://rss.nytimes.com/services/xml/rss/nyt/Technology.xml",
+        "https://www.techradar.com/rss",
+        "http://feeds.arstechnica.com/arstechnica/index",
+        "https://www.engadget.com/rss.xml",
+        "https://feeds.wired.com/wired/index",
+        "https://www.zdnet.com/news/rss.xml",
+        "https://www.cnet.com/rss/all/",
+        "https://www.digitaltrends.com/feed/",
+        "https://www.pcworld.com/index.rss",
+        "https://www.tomshardware.com/feeds/all",
+        "http://feeds.makeuseof.com/Makeuseof",
+        "https://www.technologyreview.com/feed/",           # MIT Tech Review
+        "https://spectrum.ieee.org/rss/fulltext",           # IEEE Spectrum
+        "https://venturebeat.com/feed/",
+        "https://www.reddit.com/r/technology/.rss",
+        "https://www.reddit.com/r/gadgets/.rss"
+    ],
+    "#Science": [
+        "https://www.sciencedaily.com/rss/top/science.xml",
+        "http://feeds.bbci.co.uk/news/science_and_environment/rss.xml",
+        "https://www.nature.com/subjects/science/rss",
+        "https://feeds.feedburner.com/DiscoverSpace",
+        "https://rss.sciam.com/ScientificAmerican-Global",
+        "https://www.scientificamerican.com/feed/rss/",
+        "https://physicsworld.com/feed/",
+        "https://www.pnas.org/rss/current.xml",         # Proceedings of the National Academy of Sciences
+        "https://www.reddit.com/r/science/.rss"
+    ],
+    "#AI": [
+        "https://venturebeat.com/category/ai/feed/",
+        "https://openai.com/research/feed.xml",
+        "https://ai.googleblog.com/feeds/posts/default",
+        "https://www.reddit.com/r/artificial/.rss",
+        "https://www.reddit.com/r/MachineLearning/.rss",
+        "https://www.marktechpost.com/feed/",
+        "https://thegradient.pub/rss/",
+        "https://arxiv.org/rss/cs.AI",                       # Academic/research AI
+        "https://transformer.news/feed/"                     # AI business
+    ],
+    "#World": [
+        "http://feeds.bbci.co.uk/news/rss.xml",
+        "https://rss.nytimes.com/services/xml/rss/nyt/World.xml",
+        "https://www.theguardian.com/world/rss",
+        "https://www.france24.com/en/rss",                   # France 24
+        "https://english.alarabiya.net/.mrss/en.xml",        # Al Arabiya English
+        "https://time.com/feed/",
+        "https://www.reutersagency.com/feed/?best-topics=world",  # Reuters World
+        "https://feeds.a.dj.com/rss/RSSWorldNews.xml",
+        "https://www.reddit.com/r/worldnews/.rss"
+    ],
+    "#Business": [
+        "https://feeds.bbci.co.uk/news/business/rss.xml",
+        "https://www.ft.com/?format=rss",
+        "https://www.bloomberg.com/feed/podcast/etf-report.xml",
+        "https://www.reutersagency.com/feed/?best-topics=business",
+        "https://www.forbes.com/business/feed2/",
+        "https://feeds.marketwatch.com/marketwatch/topstories/",
+        "https://www.economist.com/the-world-this-week/rss.xml",
+        "https://www.reddit.com/r/business/.rss"
+    ],
+    "#Health": [
+        "https://www.sciencedaily.com/rss/health_medicine.xml",
+        "https://www.webmd.com/rss/news_breaking.xml",
+        "https://www.medicalnewstoday.com/rss",
+        "https://www.cdc.gov/feed/rss/cdcInTheNews.xml",
+        "https://www.nature.com/subjects/health/rss",
+        "https://www.nih.gov/news-events/news-releases.xml",
+        "https://www.reddit.com/r/health/.rss"
+    ],
+    "#Coding": [
+        "https://news.ycombinator.com/rss",
+        "https://www.reddit.com/r/programming/.rss",
+        "https://feeds.feedburner.com/codinghorror/",
+        "https://feeds.feedburner.com/oreilly/radar/atom",
+        "https://dev.to/feed",
+        "https://overreacted.io/rss.xml",
+        "https://blog.jetbrains.com/feed/"                 # IDE/tools/industry
+    ],
+    "#Finance": [
+        "https://www.investing.com/rss/news_285.rss",
+        "https://www.marketwatch.com/rss/topstories",
+        "https://www.cnbc.com/id/100003114/device/rss/rss.html",
+        "https://www.wsj.com/xml/rss/3_7031.xml",
+        "https://www.bloomberg.com/feed/podcast/etf-report.xml",
+        "https://tradingeconomics.com/rss/news.aspx",           # Macro/economic data
+        "https://www.reddit.com/r/finance/.rss"
+    ],
+    "#Crypto": [
+        "https://cointelegraph.com/rss",
+        "https://news.bitcoin.com/feed/",
+        "https://www.coindesk.com/arc/outboundfeeds/rss/",
+        "https://cryptopotato.com/feed/",
+        "https://blockworks.co/feed",
+        "https://www.reddit.com/r/CryptoCurrency/.rss"
+    ],
+    "#Security": [
+        "https://threatpost.com/feed/",
+        "https://www.securityweek.com/rss",
+        "https://feeds.feedburner.com/TheHackersNews",
+        "https://krebsonsecurity.com/feed/",
+        "https://www.schneier.com/blog/atom.xml",             # Bruce Schneier’s blog
+        "https://www.darkreading.com/rss/all.xml",
+        "https://www.reddit.com/r/netsec/.rss"
+    ],
+    "#Mobile": [
+        "https://www.androidcentral.com/rss",
+        "https://9to5mac.com/feed/",
+        "https://www.gsmarena.com/rss-news-reviews.php3",
+        "https://www.macrumors.com/macrumors.xml",
+        "https://android-developers.googleblog.com/feeds/posts/default",
+        "https://www.reddit.com/r/apple/.rss",
+        "https://www.reddit.com/r/Android/.rss"
+    ],
+    "#Entertainment": [
+        "https://www.tmz.com/rss.xml",
+        "https://www.hollywoodreporter.com/t/feed/rss.xml",
+        "https://variety.com/feed/",
+        "https://www.eonline.com/syndication/feeds/rssfeeds/topstories.xml",
+        "https://www.reddit.com/r/movies/.rss",
+        "https://screenrant.com/feed/"
+    ],
+    "#Startup": [
+        "https://techcrunch.com/startups/feed/",
+        "https://www.startupdaily.net/feed/",
+        "https://venturebeat.com/category/startups/feed/",
+        "https://angel.co/blog/feed.xml",
+        "https://sifted.eu/feed/",                    # European startups
+        "https://www.reddit.com/r/startups/.rss"
+    ],
+    "#Gaming": [
+        "https://www.polygon.com/rss/index.xml",
+        "https://www.gamespot.com/feeds/news/",
+        "https://www.ign.com/feeds/all",
+        "https://www.nme.com/en_asia/music-tech/gaming-news/feed",  # NME gaming
+        "https://feeds.feedburner.com/rockpapershotgun",
+        "https://www.reddit.com/r/gaming/.rss"
+    ],
+    "#Space": [
+        "https://www.space.com/feeds/all",
+        "https://www.nasa.gov/rss/dyn/breaking_news.rss",
+        "https://www.esa.int/rssfeed/Our_Activities/Space_Science",
+        "https://spacenews.com/feed/",
+        "https://www.jpl.nasa.gov/feeds/news.xml",
+        "https://planetary.org/feeds/all.rss.xml",
+        "https://www.reddit.com/r/space/.rss",
+        "https://www.skyandtelescope.com/astronomy-news/feed/"
+    ],
+    "#Economy": [
+        "https://www.imf.org/en/News/rss",
+        "https://www.worldbank.org/en/news/all/rss",
+        "https://www.cnbc.com/id/10000664/device/rss/rss.html",
+        "https://feeds.a.dj.com/rss/RSSMarketsMain.xml",
+        "https://www.wsj.com/xml/rss/3_7031.xml",
+        "https://www.marketwatch.com/rss/topstories",
+        "https://www.economist.com/finance-and-economics/rss.xml",
+        "https://www.federalreserve.gov/feeds/releases.htm",
+        "https://www.reuters.com/business/finance/rss",
+        "https://tradingeconomics.com/rss/news.aspx"
+    ],
+    "#Geo": [
+        "https://www.rferl.org/api/zmgpqe$e_k",
+        "https://www.atlanticcouncil.org/feed/",
+        "https://foreignpolicy.com/feed/",
+        "https://www.bbc.com/news/world/rss.xml",
+        "https://www.economist.com/international/rss.xml",
+        "https://www.aljazeera.com/xml/rss/all.xml",
+        "https://english.alarabiya.net/.mrss/en.xml",
+        "https://www.cfr.org/rss/global.xml",
+        "https://www.realcleardefense.com/articles/atom.xml"
+    ],
+    # Add more—custom tags for your own subjects, local news, Persian/ME, etc!
+}
